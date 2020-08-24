@@ -1,0 +1,7 @@
+.header {
+  background : #160831;
+}
+.container article {
+  color: var(--unnamed-color-646a86);
+  max-width: 710px;
+}

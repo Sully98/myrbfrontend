@@ -1,0 +1,46 @@
+.hero {
+  background: transparent radial-gradient(closest-side at 50% 50%, #160831 0%, #180836 32%, #160831 100%);
+  height: 550px;
+}
+
+
+.hero div {
+  max-width: 456px;
+  min-width : 355px;
+}
+
+.hero__illustration,
+.hero__illustration::before,
+.hero__illustration::after {
+  border-radius: 50%;
+  border : 1px solid #6E28B4;
+  height: 445px;
+  width: 445px;
+  opacity: .25;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero__illustration::before {
+  content : "";
+  height: 308px;
+  width: 308px;
+  position: absolute;
+  opacity: 1;
+  border-left : #fff;
+  border-right: #fff;
+}
+.hero__illustration::after {
+  content : "";
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  opacity: 1;
+}
+
+@media only screen and (max-width:640px){
+  .hero {
+    height: 480px;
+  }
+}

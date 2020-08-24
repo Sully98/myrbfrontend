@@ -1,0 +1,11 @@
+{
+  "title":"Performance",
+  "data": {
+    "Income on best test":100,
+    "Number of trades":10,
+    "Largest winner":200,
+    "Largest Loser":15,
+    "Average winner":5,
+    "Average loser":20
+  }
+}

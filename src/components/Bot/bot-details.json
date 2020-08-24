@@ -1,0 +1,14 @@
+{
+  "title":"Bot details",
+  "data": {
+    "Lookback":"10 hours",
+    "Interval":"5 min",
+    "Traded security":"ETH-USD",
+    "Reward type": "Profit",
+    "Input":"ETH, BCH, Gold",
+    "Architecture":"LSM 256",
+    "Average Monthly returns":"10%",
+    "Sharp ratio":"...",
+    "Sortino ratio":"..."
+  }
+}

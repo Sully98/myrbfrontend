@@ -1,0 +1,9 @@
+{
+  "title":"Training details",
+  "data":{
+    "Total training time":"400s",
+    "Epochs":30,
+    "Learning rate":0.006,
+    "Steps per Epoch":100
+  }
+}
